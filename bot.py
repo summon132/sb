@@ -1182,7 +1182,7 @@ def bot(op):
                                except:
                                    pass
 
-                        elif cmd.startswith("broadcast: "):
+                        elif cmd.startswith("bc: "):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                sep = text.split(" ")
